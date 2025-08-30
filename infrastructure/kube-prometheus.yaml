@@ -29,7 +29,7 @@ spec:
             storageSpec:
                volumeClaimTemplate:
                   spec:
-                     storageClassName: gluster
+                     storageClassName: gp2
                      accessModes: ["ReadWriteOnce"]
                      resources:
                        requests:
