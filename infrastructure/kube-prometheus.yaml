@@ -34,7 +34,6 @@ spec:
                      resources:
                        requests:
                          storage: 5Gi
-                     selector: {}
             nodeSelector:
              disktype: appp-monitoring
         alertmanager:
